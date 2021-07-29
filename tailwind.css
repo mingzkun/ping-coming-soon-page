@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply flex flex-col items-center max-h-screen mx-6 mt-10 mb-4 lg:mt-6;
+}
+
+h1 {
+  @apply mb-5 text-xl font-light lg:text-4xl text-gray lg:mb-3;
+}
+
+input.invalid {
+  @apply border border-light-red;
+}
+
+.credit {
+  @apply text-xs font-light text-gray;
+}
+
+.copyright {
+  @apply mt-8 mb-4 text-xs font-light text-gray;
+}
+
+.CTA-form {
+  @apply flex flex-col w-screen gap-3 px-8 my-10 lg:flex-row lg:items-start lg:justify-center;
+}
+
+.error-msg {
+  @apply text-xs italic font-light text-center lg:pl-6 text-light-red lg:text-left;
+}
+
+.field {
+  @apply h-10 pl-6 text-sm font-light border rounded-full placeholder-pale-blue border-pale-blue lg:w-80;
+}
+
+.primary-btn {
+  @apply h-10 px-10 text-sm font-light text-white rounded-full shadow-xl bg-blue hover:bg-opacity-80;
+}
+
+.social-button {
+  @apply flex items-center justify-center w-8 h-8 border rounded-full border-pale-blue text-blue hover:bg-blue hover:text-white;
+}

@@ -41,5 +41,6 @@ input.invalid {
 }
 
 .social-button {
-  @apply flex items-center justify-center w-8 h-8 border rounded-full border-pale-blue text-blue hover:bg-blue hover:text-white;
+  @apply flex items-center justify-center p-1 border rounded-full fill-current w-9 h-9 border-pale-blue text-blue hover:text-white hover:bg-blue;
 }
+
